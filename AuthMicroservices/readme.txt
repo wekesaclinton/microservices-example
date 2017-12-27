@@ -1,0 +1,3 @@
+-Access the app-management through auth-eureka-server zuul proxy
+-When the request hits zuul it is channeled to the app-management for processing---10.22.0.54:1993/api-gateway/apps/auth
+-Then app-management searches for stk-service through the server. thus the response.
